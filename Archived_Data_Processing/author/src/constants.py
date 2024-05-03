@@ -8,6 +8,6 @@ DATABASE_NAME = 'nyt'
 ARTICLE_TABLE = 'article'
 AUTHOR_TABLE = 'author'
 ARTICLE_AUTHOR_TABLE = 'article_author'
-HEADER_TMDB_ID = 'tmdb_id'
+
 
 
