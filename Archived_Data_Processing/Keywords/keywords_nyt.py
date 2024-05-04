@@ -4,7 +4,7 @@ from ast import literal_eval
 import mysql.connector
 import json
 
-df = pd.read_csv("C:/Users/aparn/OneDrive/Documents/SJSU/DATA_225/Project/keywords_nyt.csv")
+df = pd.read_csv("PATH_CONFIGURE")
 
 df['keywords'] = df['keywords'].fillna('[]')
 #df = df[:3]
@@ -81,7 +81,7 @@ print(keywords.head())
 connection = mysql.connector.connect(
     host='localhost',
     user='root',
-    password='Aparna@9',
+    password='PASSWORD_CONFIGURE',
     database='nyt'
 )
 
