@@ -38,7 +38,7 @@ def preprocess():
     for col in df.columns:
         print(col)
         
-    mysql_hook = MySqlHook(mysql_conn_id='production_nyt', schema='nyt-rds') # Configure appropriate connection details
+    mysql_hook = MySqlHook(mysql_conn_id='production_nyt', schema='nyt') # Configure appropriate connection details
     connection = mysql_hook.get_conn()
 
     cursor = connection.cursor()
