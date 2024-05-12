@@ -1,0 +1,20 @@
+
+version: 2
+
+sources:
+  - name: nyt_db
+    database: nyt_db
+    schema: nyt_schema
+    tables:
+      - name: author
+      - name: article_author
+      - name: article
+      - name: section
+      - name: fact_nyt
+      - name: article_keyword
+      - name: keywords
+      - name: highlights
+
+
+
+       
