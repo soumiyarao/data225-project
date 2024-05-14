@@ -11,9 +11,9 @@ from dateutil.relativedelta import relativedelta
 
 
 snowflake_connection_params = {
-    'user': 'data225',
-    'password': 'Data@225',
-    'account': 'qlddjia-rfb84219',
+    'user': '***',
+    'password': '***',
+    'account': '***',
     'warehouse': 'nyt_wh',
     'database': 'nyt_db',
     'schema': 'nyt_schema'
